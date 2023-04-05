@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "D:/UIT/HK6/nhung/th/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "D:/UIT/HK6/nhung/th/lab02/bt2/build/bootloader",
+    "config_file":        "D:/UIT/HK6/nhung/th/lab02/bt2/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2.4-199-g9dfbf27857",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "D:/UIT/HK6/nhung/th/esp/esp-idf/components/efuse/Kconfig;D:/UIT/HK6/nhung/th/esp/esp-idf/components/esp32/Kconfig;D:/UIT/HK6/nhung/th/esp/esp-idf/components/esp_common/Kconfig;D:/UIT/HK6/nhung/th/esp/esp-idf/components/log/Kconfig;D:/UIT/HK6/nhung/th/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "D:/UIT/HK6/nhung/th/esp/esp-idf/components/bootloader/Kconfig.projbuild;D:/UIT/HK6/nhung/th/esp/esp-idf/components/esptool_py/Kconfig.projbuild;D:/UIT/HK6/nhung/th/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "D:/UIT/HK6/nhung/th/esp/esp-idf/components/bootloader", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/bootloader_support", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/efuse", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/esp32", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/esp_common", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/esp_rom", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/esptool_py", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/log", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/bootloader/subproject/main", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/partition_table", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/soc", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/spi_flash", "D:/UIT/HK6/nhung/th/esp/esp-idf/components/xtensa", "" ]
+}

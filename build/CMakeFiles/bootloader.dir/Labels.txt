@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/UIT/HK6/nhung/th/lab02/bt2/build/CMakeFiles/bootloader
+D:/UIT/HK6/nhung/th/lab02/bt2/build/CMakeFiles/bootloader.rule
+D:/UIT/HK6/nhung/th/lab02/bt2/build/CMakeFiles/bootloader-complete.rule
+D:/UIT/HK6/nhung/th/lab02/bt2/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/UIT/HK6/nhung/th/lab02/bt2/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/UIT/HK6/nhung/th/lab02/bt2/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/UIT/HK6/nhung/th/lab02/bt2/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+D:/UIT/HK6/nhung/th/lab02/bt2/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/UIT/HK6/nhung/th/lab02/bt2/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/UIT/HK6/nhung/th/lab02/bt2/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
