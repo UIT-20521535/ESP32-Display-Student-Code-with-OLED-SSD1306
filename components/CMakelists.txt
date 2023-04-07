@@ -1,5 +1,5 @@
-set(component_srcs "ssd1306.h" "font8x8_basic.h")
+set(component_srcs "ssd1306.h" "font8x8_basic.h" "ssd1306.c")
 
-idf_component_register(SRCS "${component_srcs}"
+idf_component_register(SRCS "ssd1306.c" "${component_srcs}"
                        PRIV_REQUIRES driver
                        INCLUDE_DIRS ".")

@@ -1444,6 +1444,16 @@ rule CXX_STATIC_LIBRARY_LINKER____idf_main
 
 
 #############################################
+# Rule for compiling C files.
+
+rule C_COMPILER____idf_components
+  depfile = $DEP_FILE
+  deps = gcc
+  command = D:\UIT\HK6\nhung\th\.espressif\tools\xtensa-esp32-elf\esp-2020r3-8.4.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  description = Building C object $out
+
+
+#############################################
 # Rule for linking CXX static library.
 
 rule CXX_STATIC_LIBRARY_LINKER____idf_components
